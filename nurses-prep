@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nurses Prep NCLEX Review</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      box-sizing: border-box;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 1.5em 0;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 2em;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    section h2 {
+      color: #007bff;
+    }
+    .form-container {
+      background: #fff;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 2em;
+    }
+    form input {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    form button {
+      padding: 10px 20px;
+      background: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    form button:hover {
+      background: #218838;
+    }
+    .payment-container {
+      margin-top: 2em;
+    }
+    .payment-container a {
+      text-decoration: none;
+      display: inline-block;
+      background: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    .payment-container a:hover {
+      background: #0056b3;
+    }
+    footer {
+      background: #f1f1f1;
+      text-align: center;
+      padding: 1em 0;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nurses Prep NCLEX Review</h1>
+    <p>Your Path to NCLEX Success Starts Here!</p>
+  </header>
+
+  <section>
+    <h2>About the NCLEX Review Classes</h2>
+    <p>Our NCLEX Review Classes are designed to help you pass your exam with confidence. The classes are held <strong>3 days a week</strong> for <strong>2 hours</strong> each session. The total fee is <strong>$1000 CAD</strong>.</p>
+    <p>Join us to gain in-depth knowledge, practice critical thinking, and receive expert guidance tailored to the NCLEX exam requirements.</p>
+  </section>
+
+  <section class="form-container">
+    <h2>Inquire About Classes</h2>
+    <form action="https://formspree.io/f/{https://formspree.io/f/mrbeklrq}" method="POST">
+      <input type="text" name="first_name" placeholder="First Name" required>
+      <input type="text" name="last_name" placeholder="Last Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <button type="submit">Submit Inquiry</button>
+    </form>
+  </section>
+
+  <section class="payment-container">
+    <h2>Ready to Register?</h2>
+    <p>Click below to proceed with the payment for the NCLEX Review Classes.</p>
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=viratpatel.007@gmail.com&item_name=NCLEX%20Review%20Classes&amount=1000.00&currency_code=CAD" target="_blank">Pay $1000 CAD</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Nurses Prep. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
